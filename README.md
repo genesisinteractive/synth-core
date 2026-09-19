@@ -37,7 +37,7 @@ Add to your Unity project's `Packages/manifest.json`:
 ```json
 {
   "dependencies": {
-    "com.genesis.synth": "https://github.com/arghyasur1991/synth-core.git",
+    "com.genesis.synth": "https://github.com/genesisinteractive/synth-core.git",
     "org.mujoco": "https://github.com/arghyasur1991/mujoco.git?path=unity#synth-patches"
   }
 }

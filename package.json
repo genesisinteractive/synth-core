@@ -8,9 +8,9 @@
   },
   "author": {
     "name": "Genesis",
-    "url": "https://github.com/arghyasur1991/synth-core"
+    "url": "https://github.com/genesisinteractive/synth-core"
   },
   "license": "Apache-2.0",
-  "licensesUrl": "https://github.com/arghyasur1991/synth-core/blob/main/LICENSE",
+  "licensesUrl": "https://github.com/genesisinteractive/synth-core/blob/main/LICENSE",
   "hideInEditor": false
 }
