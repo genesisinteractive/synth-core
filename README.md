@@ -19,8 +19,8 @@ synth-core is the foundation of a three-package architecture for creating, train
 | Package | Role | |
 |---------|------|-|
 | **synth-core** *(this repo)* | Humanoid creation, MuJoCo physics, skill architecture | — |
-| [**synth-training**](https://github.com/arghyasur1991/synth-training) | On-device reinforcement learning via TorchSharp SAC | Optional |
-| [**synth-vr**](https://github.com/arghyasur1991/synth-vr) | Mixed reality interaction on Meta Quest | Optional |
+| [**synth-training**](https://github.com/genesisinteractive/synth-training) | On-device reinforcement learning via TorchSharp SAC | Optional |
+| [**synth-vr**](https://github.com/genesisinteractive/synth-vr) | Mixed reality interaction on Meta Quest | Optional |
 
 synth-core provides the physics body, motor system, and extensible skill/sense interfaces. **synth-training** plugs into these interfaces (`ISynthSkill`) to add on-device learning — no external Python server needed. **synth-vr** adds Quest hand tracking, room integration, and passthrough rendering so the Synth lives in your physical space. When all three are combined, the Synth trains live on Quest while you physically interact with it in your room.
 
@@ -37,7 +37,7 @@ Add to your Unity project's `Packages/manifest.json`:
 ```json
 {
   "dependencies": {
-    "com.genesis.synth": "https://github.com/arghyasur1991/synth-core.git",
+    "com.genesis.synth": "https://github.com/genesisinteractive/synth-core.git",
     "org.mujoco": "https://github.com/arghyasur1991/mujoco.git?path=unity#synth-patches"
   }
 }
